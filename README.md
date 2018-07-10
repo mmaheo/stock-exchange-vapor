@@ -24,7 +24,7 @@ This project overall follows the official documentation for writing Vapor projec
 This project, currently, has no tests.
 
 ## 🔗 Useful links
-- [Project documentation report](TODO)
+- [API documentation](https://app.swaggerhub.com/apis/stock-exchange/Stock-Exchange/1.0.0)
 
 ## 💻 Developers
 - Maxime Maheo
