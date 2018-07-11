@@ -8,6 +8,6 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_DB: vapor
-      POSTGRES_USER: vapor
+      POSTGRES_USER: default
+      POSTGRES_DB: default
       POSTGRES_PASSWORD: password
