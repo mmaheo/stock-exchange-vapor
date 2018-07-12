@@ -1,0 +1,27 @@
+version: "3.3"
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile-dev
+    image: api:dev
+    ports:
+      - 8080:8080
+    volumes:
+      - .:/app
+    working_dir: /app
+    stdin_open: true
+    tty: true
+    entrypoint: bash
+
+  db:
+    image: postgres:latest
+    restart: always
+    container_name: db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: default
+      POSTGRES_DB: default
+      POSTGRES_PASSWORD: password
