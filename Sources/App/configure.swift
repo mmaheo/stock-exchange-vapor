@@ -19,10 +19,10 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
 
     // Configure a database
     var databases = DatabasesConfig()
-    let hostname = Environment.get("DATABASE_HOSTNAME") ?? "localhost"
-    let username = Environment.get("DATABASE_USER") ?? "default"
-    let databaseName = Environment.get("DATABASE_DB") ?? "default"
-    let password = Environment.get("DATABASE_PASSWORD") ?? "password"
+    let hostname = "db"
+    let username = "default"
+    let databaseName = "default"
+    let password = "password"
     
     let databaseConfig = PostgreSQLDatabaseConfig(
         hostname: hostname,
