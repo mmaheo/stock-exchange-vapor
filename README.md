@@ -3,9 +3,11 @@
 [![Vapor Version](https://img.shields.io/badge/Vapor-3-30B6FC.svg)](http://vapor.codes)
 
 `master`:
+[![Build Status](https://travis-ci.org/mmaheo/stock-exchange-vapor.svg?branch=master)](https://travis-ci.org/mmaheo/stock-exchange-vapor)
 [![codebeat badge](https://codebeat.co/badges/4cf530d6-be3d-4be0-bd4c-6f7f95303ddc)](https://codebeat.co/projects/github-com-mmaheo-stock-exchange-vapor-master)
 
 `develop`:
+[![Build Status](https://travis-ci.org/mmaheo/stock-exchange-vapor.svg?branch=develop)](https://travis-ci.org/mmaheo/stock-exchange-vapor)
 [![codebeat badge](https://codebeat.co/badges/9324e3c3-5e48-4d35-806d-53061d9a4b7f)](https://codebeat.co/projects/github-com-mmaheo-stock-exchange-vapor-develop)
 
 ## 📖 Project description
