@@ -17,12 +17,13 @@ To get the project up and running you can follow the usual steps:
 - `git clone git@github.com:mmaheo/stock-exchange-vapor.git`
 - `cd stock-exchange-vapor`
 - `docker-compose up -d --build`
-- `docker ps`
+- `docker attach api`
 
-Search the container id of api:dev image
-
-- `docker attach <CONTAINER ID>`
+Run server
 - `swift run Run serve -b 0.0.0.0`
+
+Run tests
+- `swift test`
 
 ## 🏯 Architecture & code principles
 This project overall follows the official documentation for writing Vapor projects.
