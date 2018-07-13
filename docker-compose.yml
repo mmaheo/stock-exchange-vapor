@@ -21,7 +21,7 @@ services:
     restart: always
     container_name: db
     ports:
-      - "5432:5432"
+      - 1234:5432
     environment:
       POSTGRES_USER: default
       POSTGRES_DB: default
